@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+h1{
+    font-family: 'Alata', arial, serif;
+    text-align: center;
+    font-size: 90px;
+    color: #3F3C3C;
+}
+
+h2{
+    font-family: 'Kanit', arial, serif;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+#TRESC { 
+    font-family: 'Oswald', arial, serif;
+    font-size: 20px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+main {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+body {background-color: #ECE5DC;}
+
+header{ 
+    background-image: url("db7.jpg");
+    background-position-x: 100%;
+    background-position-y: 38%; 
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+#naw{
+    background-color: #777069;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#naw ul{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#naw li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#naw li a{
+    display: inline-block;
+    padding:  5px 20px;
+    background-color: #777069;
+    text-align: center;
+    color: #ECE5DC;
+    font-family: 'Kanit', arial, serif;
+    text-decoration: none;
+}
+
+#naw li a:hover{
+    background-color: #3F3C3C;
+}
+
+
+.zdjecie{
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+
+.zdjecie2{
+    width: 320px;
+    height: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#top{
+    height: 510px;
+}
+p{
+    margin-bottom: 10px;
+}
+
+#spis{
+    width: 30%;
+    float: left;
+    text-align: left;
+    font-family: 'Kanit', arial, serif;
+    
+}
+blockquote{
+    padding-top: 10%;
+    padding-right: 20%;
+    height: 40%;
+    font-family: 'Lobster', arial, serif;
+    font-size: 40px;
+}
+
+#stopka{
+    margin-top: 30px;
+    font-family: 'Oswald', arial, serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
